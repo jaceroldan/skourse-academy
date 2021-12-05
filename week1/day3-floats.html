@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Floats!</title>
+        <style>
+            .wrapper {
+                background-color: rgb(79,185,227);
+                padding: 10px;
+                color: #fff;
+                /* overflow: auto; */
+                border: 1px solid black;
+            }
+
+            .wrapper::after {
+                content: '';
+                clear: left;
+                display: block;
+            }
+
+            .box {
+                float: left;
+                margin-right: 15px;
+                width: 150px;
+                height: 100px;
+                border-radius: 5px;
+                background-color: rgb(207,232,220);
+                padding: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        
+    </body>
+        <div class="wrapper">
+            <div class="box">Float</div>
+      
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate.</p>
+      </div>
+</html>

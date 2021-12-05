@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms!</title>
+        <style>
+            form {
+                position : relative;
+                width  : 740px;
+                height : 498px;
+                margin : 0 auto;
+                padding: 1em;
+                box-sizing: border-box;
+                background : #FFF url(background.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <p>file:///Users/juancarlosroldan/Projects/skourse/week1/day3-forms.html?name=Jace&email=jace%40gmail.com&date=2021-12-02&favorite_pet=Cats&hobbies=Reading&hobbies=Sleeping</p> 
+        <form action="" method="get" class="form-example">
+            <div class="form-example">
+                <label for="name">Enter your SSS Number (XX-XXXXXXX-X): </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-example">
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+                <label for="date">Enter your date: </label>
+                <input type="date" name="date" id="date" required>
+            </div>
+            <p>Favorite Pets</p>
+            <div class="form-example">
+                <input type="radio" value="Cats" id="radio-1" name="favorite_pet">
+                <label for="radio-1">Cats</label>
+                <input type="radio" value="Dogs" id="radio-2" name="favorite_pet">
+                <label for="radio-2">Dogs</label>
+                <input type="radio" value="Gerbils" id="radio-3" name="favorite_pet">
+                <label for="radio-3">Gerbils</label>
+            </div>
+            <p>Favorite Hobbies</p>
+            <div class="form-example">
+                <input type="checkbox" value="Skydiving" id="checkbox-1" name="hobbies">
+                <label for="checkbox-1">Skydiving</label>
+                <input type="checkbox" value="Reading" id="checkbox-2" name="hobbies">
+                <label for="checkbox-2">Reading</label>
+                <input type="checkbox" value="Sleeping" id="checkbox-3" name="hobbies">
+                <label for="checkbox-3">Sleeping</label>
+            </div>
+            <div class="form-example">
+                <input type="submit" value="Subscribe!">
+            </div>
+        </form>   
+    </body>
+</html>
