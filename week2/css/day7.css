@@ -1,0 +1,37 @@
+
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Small devices like tablets and large phones */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: cyan;
+    }
+}
+
+/* landscape tablets */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* laptops, smaller width desktops */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: pink;
+    }
+}
+
+/* largest laptops and desktops */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: gold;
+    }
+}
+
+/* Note: The above styles actually interfere with each other so it's important to write them in order */
